@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\Lab19bbb_Identity\\Lab02\\Lab02.csproj": {}
+    "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\GUI_2020_Exercises\\Lab19bbb_Identity\\Lab02\\Lab02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\Lab19bbb_Identity\\Lab02\\Lab02.csproj": {
+    "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\GUI_2020_Exercises\\Lab19bbb_Identity\\Lab02\\Lab02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\Lab19bbb_Identity\\Lab02\\Lab02.csproj",
+        "projectUniqueName": "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\GUI_2020_Exercises\\Lab19bbb_Identity\\Lab02\\Lab02.csproj",
         "projectName": "Lab02",
-        "projectPath": "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\Lab19bbb_Identity\\Lab02\\Lab02.csproj",
+        "projectPath": "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\GUI_2020_Exercises\\Lab19bbb_Identity\\Lab02\\Lab02.csproj",
         "packagesPath": "C:\\Users\\majas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\Lab19bbb_Identity\\Lab02\\obj\\",
+        "outputPath": "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\GUI_2020_Exercises\\Lab19bbb_Identity\\Lab02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\majas\\AppData\\Roaming\\NuGet\\NuGet.Config",
