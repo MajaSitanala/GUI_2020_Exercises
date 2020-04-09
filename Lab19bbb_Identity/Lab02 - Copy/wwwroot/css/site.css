@@ -1,0 +1,303 @@
+﻿body {
+    background-color: oldlace;
+    background-image: url(/Graphics/tumblr_static_fnp873p3ka0og0s4kg0o0kk4.gif);
+    color: firebrick;
+    font-family: Helvetica, Calibri, sans-serif;
+}
+
+h1 {
+    background-color: dimgrey;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0; /*VIGTIG ellers kommer der stort gab :( */
+}
+
+h2 {
+    background-color: dimgrey;
+    color: whitesmoke;
+    font-size: medium;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    clear: left;
+}
+
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: snow; /*whitesmoke; snow; oldlace; cornsilk;*/
+    min-width: 700px;
+    box-shadow: 5px 5px 5px #828282;
+}
+
+top_user_bar {
+    text-align: center;
+    word-break: break-all;
+    float: none;
+    width: 150px;
+    padding-top: 10px;
+
+    background-color: dimgrey;
+    color: black;
+}
+
+header {
+    background-color: dimgrey;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    text-align: left;
+    float: left;
+    width: 150px;
+    padding-top: 10px;
+}
+
+    nav a {
+        text-decoration: none;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+        nav a:link {
+            color: black;
+        }
+
+        nav a:visited {
+            color: gray;
+        }
+
+        nav a:hover {
+            color: dimgrey;
+        }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+
+main {
+    padding: 10px 20px 30px;
+    margin-left: 150px;
+    background-color: oldlace; /*oldlace*/
+    color: black;
+}
+
+footer {
+    background-color: dimgrey;
+    color: antiquewhite;
+    font-size: .90em; /*.60em*/
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+
+    footer a:link {
+        color: rebeccapurple;
+    }
+
+    footer a:visited {
+        color: mediumpurple;
+    }
+
+    footer a:hover {
+        color: purple;
+    }
+
+#content {
+    padding: 25px;
+}
+
+img {
+    border-style: none;
+}
+
+header, nav, figure, footer {
+    display: block;
+}
+
+/****** T A B L E    S T Y L E S ******/
+
+table, th, td {
+    border: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+table tr:nth-of-type(odd) {
+    background-color: palevioletred; /*palevioletred;thistle;lightpink;lightcoral;tan;moccasin;sandybrown;*/
+}
+
+
+
+/*Used in ilustrations.html*/
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.floatleft {
+    padding-left: 20px;
+    float: left;
+}
+
+.floatright {
+    margin-top: 0;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+/******U S E D    I N     I L U S T R A T I O N ******/
+
+navI {
+    text-align: center;
+    float: none;
+    width: 150px;
+    padding-top: 10px;
+}
+
+    navI a {
+        text-decoration: none;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+        navI a:link {
+            color: black;
+        }
+
+        navI a:visited {
+            color: gray;
+        }
+
+        navI a:hover {
+            color: dimgrey;
+        }
+
+    navI ul {
+        list-style-type: none;
+    }
+
+    navI li {
+        display: inline;
+    }
+
+mainI {
+    padding: 10px 20px 30px 20px;
+    margin: 0;
+    color: black;
+}
+
+#wrapperI {
+    padding: 10px 20px 30px;
+    margin-left: 0px;
+    background-color: oldlace; /*oldlace*/
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
