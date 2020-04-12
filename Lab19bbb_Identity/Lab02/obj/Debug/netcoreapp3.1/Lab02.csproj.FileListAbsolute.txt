@@ -297,8 +297,7 @@ C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\G
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\Lab02.csprojAssemblyReference.cache
-C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\staticwebassets\Lab02.StaticWebAssets.Manifest.cache
-C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\staticwebassets\Lab02.StaticWebAssets.xml
+C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\Lab02.csproj.CoreCompileInputs.cache
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\Lab02.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\Lab02.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\Lab02.RazorAssemblyInfo.cache
@@ -338,5 +337,8 @@ C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\G
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\Lab02.RazorTargetAssemblyInfo.cs
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\Lab02.Views.pdb
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\Lab02.csproj.CopyComplete
+C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\staticwebassets\Lab02.StaticWebAssets.Manifest.cache
+C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\staticwebassets\Lab02.StaticWebAssets.xml
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\Lab02.dll
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\Lab02.pdb
+C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab02\obj\Debug\netcoreapp3.1\Lab02.genruntimeconfig.cache

@@ -16,5 +16,6 @@ namespace Lab02.Data
         public DbSet<JoinApplication> JoinApplications { get; set; }
 
         public DbSet<Illustration> Illustrations { get; set; }
+
     }
 }

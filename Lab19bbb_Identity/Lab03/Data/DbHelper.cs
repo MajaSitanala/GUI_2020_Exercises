@@ -11,7 +11,7 @@ namespace Lab03.Data
 {
     public class DbHelper
     {
-        public static void SeedData(ApplicationDbContext db, UserManager<IdentityUser> userManager, ILogger log)
+        public static void SeedData(ApplicationDbContext db, UserManager<ApplicationUser> userManager, ILogger log)
         {
             SeedIllustrations(db, log);
             SeedUsers(userManager, log);
@@ -51,7 +51,7 @@ namespace Lab03.Data
             }
         }
 
-        public static async void SeedUsers(UserManager<IdentityUser> userManager, ILogger log)
+        public static void SeedUsers(UserManager<ApplicationUser> userManager, ILogger log)   // Edit_19b.3: from IdentityUser to ApplicationUser
         {
             // T H E      A D M I N      U S E R
             const string adminEmail = "aa@aa.aa";
@@ -59,7 +59,7 @@ namespace Lab03.Data
             if (userManager.FindByNameAsync(adminEmail).Result == null)
             {
                 log.LogWarning("Seeding the admin user");
-                var user = new IdentityUser
+                var user = new ApplicationUser                                                      // Edit_19b.3: from IdentityUser to ApplicationUser
                 {
                     UserName = adminEmail,
                     Email = adminEmail
@@ -69,7 +69,7 @@ namespace Lab03.Data
                 if (result.Succeeded)
                 {
                     var adminClaim = new Claim("Admin", "Yes");
-                    await userManager.AddClaimAsync(user, adminClaim);
+                    userManager.AddClaimAsync(user, adminClaim);
                 }
             }
         }

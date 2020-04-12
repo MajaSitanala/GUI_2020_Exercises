@@ -16,5 +16,11 @@ namespace Lab03.Data
         public DbSet<JoinApplication> JoinApplications { get; set; }
 
         public DbSet<Illustration> Illustrations { get; set; }
+
+
+        public DbSet<ApplicationUser> MApplicationUsers { get; set; }
+
+        public DbSet<Review> Reviews { get; set; }
+
     }
 }
