@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\Lab19a_DataAccess\\Lab19_DayDreamDivision\\Lab01\\Lab01.csproj": {}
+    "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\GUI_2020_Exercises\\Lab19a_DataAccess\\Lab19_DayDreamDivision\\Lab01\\Lab01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\Lab19a_DataAccess\\Lab19_DayDreamDivision\\Lab01\\Lab01.csproj": {
+    "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\GUI_2020_Exercises\\Lab19a_DataAccess\\Lab19_DayDreamDivision\\Lab01\\Lab01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\Lab19a_DataAccess\\Lab19_DayDreamDivision\\Lab01\\Lab01.csproj",
+        "projectUniqueName": "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\GUI_2020_Exercises\\Lab19a_DataAccess\\Lab19_DayDreamDivision\\Lab01\\Lab01.csproj",
         "projectName": "Lab01",
-        "projectPath": "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\Lab19a_DataAccess\\Lab19_DayDreamDivision\\Lab01\\Lab01.csproj",
+        "projectPath": "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\GUI_2020_Exercises\\Lab19a_DataAccess\\Lab19_DayDreamDivision\\Lab01\\Lab01.csproj",
         "packagesPath": "C:\\Users\\majas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\Lab19a_DataAccess\\Lab19_DayDreamDivision\\Lab01\\obj\\",
+        "outputPath": "C:\\Users\\majas\\OneDrive\\ElectricalEnginering\\7_semester\\GUI - GUI Programering\\GUI_2020_Exercises\\Lab19a_DataAccess\\Lab19_DayDreamDivision\\Lab01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\majas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

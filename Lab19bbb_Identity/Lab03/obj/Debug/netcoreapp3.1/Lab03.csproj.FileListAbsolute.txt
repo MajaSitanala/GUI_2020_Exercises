@@ -381,4 +381,3 @@ C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\G
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab03\obj\Debug\netcoreapp3.1\Lab03.dll
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab03\obj\Debug\netcoreapp3.1\Lab03.pdb
 C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab03\obj\Debug\netcoreapp3.1\Lab03.genruntimeconfig.cache
-C:\Users\majas\OneDrive\ElectricalEnginering\7_semester\GUI - GUI Programering\GUI_2020_Exercises\Lab19bbb_Identity\Lab03\obj\Debug\netcoreapp3.1\Lab03.csprojAssemblyReference.cache
