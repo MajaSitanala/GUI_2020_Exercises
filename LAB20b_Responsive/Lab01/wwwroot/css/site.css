@@ -1,0 +1,227 @@
+﻿body {
+    background-color: oldlace;
+    background-image: url(/Graphics/tumblr_static_fnp873p3ka0og0s4kg0o0kk4.gif);
+    color: firebrick;
+    font-family: Helvetica, Calibri, sans-serif;
+}
+
+h1 {
+    background-color: dimgrey;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0; /*VIGTIG ellers kommer der stort gab :( */
+}
+
+h2 {
+    background-color: dimgrey;
+    color: whitesmoke;
+    font-size: medium;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    clear: left;
+}
+
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: snow; /*whitesmoke; snow; oldlace; cornsilk;*/
+    min-width: 700px;
+    box-shadow: 5px 5px 5px #828282;
+}
+
+top_user_bar {
+    text-align: center;
+    word-break: break-all;
+    float: none;
+    width: 150px;
+    padding-top: 10px;
+
+    background-color: dimgrey;
+    color: black;
+}
+
+header {
+    background-color: dimgrey;
+    color: black;
+    text-align: center;
+    margin: 0;
+    height: 117px;
+    background-image: url(/Graphics/DDD.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    text-align: left;
+    float: left;
+    width: 150px;
+    padding-top: 10px;
+}
+
+    nav a {
+        text-decoration: none;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+        nav a:link {
+            color: black;
+        }
+
+        nav a:visited {
+            color: gray;
+        }
+
+        nav a:hover {
+            color: dimgrey;
+        }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+
+main {
+    padding: 10px 20px 30px;
+    margin-left: 150px;
+    min-height: 700px;
+    background-color: oldlace; /*oldlace*/
+    color: black;
+}
+
+footer {
+    background-color: dimgrey;
+    color: antiquewhite;
+    font-size: .90em; /*.60em*/
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+
+    footer a:link {
+        color: rebeccapurple;
+    }
+
+    footer a:visited {
+        color: mediumpurple;
+    }
+
+    footer a:hover {
+        color: purple;
+    }
+
+#content {
+    padding: 25px;
+}
+
+img {
+    border-style: none;
+}
+
+header, nav, figure, footer {
+    display: block;
+}
+
+/****** T A B L E    S T Y L E S ******/
+
+table, th, td {
+    border: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+table tr:nth-of-type(odd) {
+    background-color: palevioletred; /*palevioletred;thistle;lightpink;lightcoral;tan;moccasin;sandybrown;*/
+}
+
+
+
+/*Used in ilustrations.html*/
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.floatleft {
+    padding-left: 20px;
+    float: left;
+}
+
+.floatright {
+    margin-top: 0;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+/******U S E D    I N     I L U S T R A T I O N ******/
+
+navI {
+    text-align: center;
+    float: none;
+    width: 150px;
+    padding-top: 10px;
+}
+
+    navI a {
+        text-decoration: none;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+        navI a:link {
+            color: black;
+        }
+
+        navI a:visited {
+            color: gray;
+        }
+
+        navI a:hover {
+            color: dimgrey;
+        }
+
+    navI ul {
+        list-style-type: none;
+    }
+
+    navI li {
+        display: inline;
+    }
+
+mainI {
+    padding: 10px 20px 30px 20px;
+    margin: 0;
+    color: black;
+}
+
+#wrapperI {
+    padding: 10px 20px 30px;
+    margin-left: 0px;
+    background-color: oldlace; /*oldlace*/
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

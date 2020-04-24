@@ -13,6 +13,7 @@ namespace Lab01.Data
     {
         public static void SeedData(ApplicationDbContext db, UserManager<ApplicationUser> userManager, ILogger log)
         {
+            //Inset Timer
             SeedIllustrations(db, log);
             SeedUsers(userManager, log);
         }

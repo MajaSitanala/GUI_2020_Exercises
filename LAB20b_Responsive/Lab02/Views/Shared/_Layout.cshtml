@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Lab02</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+
+
+    <div class="container">
+        <header>
+            <img src="~/Graphics/DDD.png" class="d-none d-sm-block center-img" />
+            <img src="~/Graphics/DDDMobile.png" class="d-block d-sm-none center-img" />
+            <nav class="navbar navbar-light navbar-expand-sm navbar-toggleable-sm navbar-custom p-0">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <partial name="_LoginPartial" />
+                    <partial name="_userLayout.cshtml" />
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="container">
+        <main role="main" class="p-3">
+            @RenderBody()
+        </main>
+
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                Copyright &copy; 2020 The Day Dream Division<br>
+                <a href="mailto:DDD@atentionSpanMail.com">DDD@atentionSpanMail.com</a>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+    @*<div id="wrapper">
+            <header>
+                <h1><img src="/Graphics/DDD.png" alt="The Day Dream Division" height="140" width="800" /></h1>
+            </header>
+
+            @if (ViewBag.Title == "Illustration_Index")
+            {
+                <navI>
+                    <partial name="_userLayout.cshtml" />
+                </navI>
+            }
+            else
+            {
+                <nav>
+                    <partial name="_userLayout.cshtml" />
+                </nav>
+            }
+
+
+            <div>
+                <main id="content">
+                    @RenderBody()
+                </main>
+
+                <footer>
+                    <small>
+                        <i>
+                            Copyright &copy; 2020 The Day Dream Division<br>
+                            <a href="mailto:DDD@atentionSpanMail.com">DDD@atentionSpanMail.com</a>
+                        </i>
+                    </small>
+                </footer>
+            </div>
+
+        </div>*@
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

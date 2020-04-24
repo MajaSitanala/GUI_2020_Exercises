@@ -1,0 +1,42 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+
+@{
+    var isAdmin = false;
+    if (User.HasClaim("Admin", "Yes"))
+    {
+        isAdmin = true;
+    }
+}
+
+@{
+    ViewData["Title"] = "_userLayout";
+}
+
+
+    <ul>
+        <li><a asp-controller="Home" asp-action="Index">Index</a>&nbsp;&nbsp;</li>
+        <li><a asp-controller="Home" asp-action="Fractions">Fractions</a>&nbsp;&nbsp;</li>
+        <li><a asp-controller="Illustrations" asp-action="Index">Ilustrations</a>&nbsp;&nbsp;</li>
+        <li><a asp-controller="Home" asp-action="Comics">Comics</a>&nbsp;&nbsp;</li>
+        <li><a asp-controller="Home" asp-action="Music">Music</a>&nbsp;&nbsp;</li>
+        <li><a asp-controller="Home" asp-action="Videos">Videos</a>&nbsp;&nbsp;</li>
+        <li><a asp-controller="Join" asp-action="Create">Join</a>&nbsp;&nbsp;</li>
+        <li><a asp-controller="Reviews" asp-action="Index" class="menu">Reviews</a></li>
+        <li><br></li>
+
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <li><a asp-controller="Reviews" asp-action="Create" class="menu">Add Review</a></li>
+            // A D M I N     M E N U
+            @if (isAdmin)
+            {
+                <li><a asp-controller="Join" asp-action="Index">Application OverView</a>&nbsp;&nbsp;</li>
+                <li><a asp-controller="Illustrations" asp-action="Create">AddIllustration</a>&nbsp;&nbsp;</li>
+            }
+
+        }
+
+    </ul>

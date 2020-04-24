@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Lab02.Models.Illustration>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<d> When a mind has begun to wander, let it go and look downunder. For then you might find a thing that takes you on and on again.</d>
+@foreach (var item in Model)
+{
+    <h2>@Html.DisplayFor(modelItem => item.Name)</h2>
+    <p class="details">
+        <a href="@Html.DisplayFor(modelItem => item.ImageUrl)"> <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" width="312" height="192" alt="lady" /></a>
+        <br>@Html.DisplayFor(modelItem => item.Description)
+    </p>
+}

@@ -1,0 +1,145 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    background-color: oldlace;
+    background-image: url(/Graphics/tumblr_static_fnp873p3ka0og0s4kg0o0kk4.gif);
+    color: firebrick;
+    font-family: Helvetica, Calibri, sans-serif;
+}
+
+header {
+    background-color: brown;
+    color: black;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    text-indent: -99999px;
+}
+
+.center-img {
+    margin: 0 auto 0;
+    display: block;
+}
+
+.navbar-custom {
+    background-color: floralwhite;
+}
+    /* change the brand and text color */
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+        color: rgba(255,255,255,.8);
+    }
+    /* change the link color */
+    .navbar-custom .navbar-nav .nav-link {
+        color: rgba(255,255,255,.5);
+    }
+    /* change the color of active or hovered links */
+    .navbar-custom .nav-item.active .nav-link,
+    .navbar-custom .nav-item:hover .nav-link {
+        color: #ffffff;
+    }
+
+main {
+    background-color: white;
+    color: #000000;
+}
+
+footer {
+    background-color: dimgray;
+    color: #000000;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+    footer a:link {
+        color: #f2eab7;
+    }
+
+    footer a:visited {
+        color: #ffffcc;
+    }
+
+    footer a:hover {
+        color: #330000;
+    }
+
+h2 {
+    background-color: dimgray;
+    color: floralwhite;
+    font-size: 1.2em;
+    padding: 5px 0 0 5px;
+}
+
+h3 {
+    color: brown;
+    text-align: left;
+    margin: 0;
+}
+
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 35px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: brown;
+}
+
+.button {
+    border-radius: 3px;
+    border: solid 1px #1A4575;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #663300;
+    color: #fee1cc;
+    text-decoration: none;
+    padding: 4px 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    width: 10em;
+    vertical-align: middle;
+    font-family: Verdana,Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+    .button:hover {
+        text-decoration: underline;
+        background-color: #996633;
+        border: solid 1px #20538D;
+    }
+
+.small-button {
+    border-radius: 3px;
+    border: solid 1px #1A4575;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #663300;
+    color: #fee1cc;
+    text-decoration: none;
+    padding: 4px 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 4px;
+    width: 4em;
+    vertical-align: middle;
+    font-family: Verdana,Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+    .small-button:hover {
+        text-decoration: underline;
+        background-color: #996633;
+        border: solid 2px #20538D;
+    }
+
+.doAjax {
+}
