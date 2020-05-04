@@ -23,6 +23,32 @@ namespace Lab01.Controllers
             return View();
         }
 
+
+        public IActionResult Fractions()
+        {
+            return View();
+        }
+
+        public IActionResult Ilustrations()
+        {
+            return View();
+        }
+
+        public IActionResult Comics()
+        {
+            return View();
+        }
+
+        public IActionResult Music()
+        {
+            return View();
+        }
+
+        public IActionResult Videos()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

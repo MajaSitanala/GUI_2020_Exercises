@@ -12,6 +12,8 @@ using Lab01.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Lab01.Models;
 
 namespace Lab01
 {
@@ -30,14 +32,20 @@ namespace Lab01
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDefaultIdentity<ApplicationUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("IsAdmin", policyBuilder => policyBuilder.RequireClaim("Admin"));
+            });
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserManager<ApplicationUser> userManager, ApplicationDbContext context, ILogger<Startup> log)
         {
             if (env.IsDevelopment())
             {
@@ -57,6 +65,8 @@ namespace Lab01
 
             app.UseAuthentication();
             app.UseAuthorization();
+
+            DbHelper.SeedData(context, userManager, log);
 
             app.UseEndpoints(endpoints =>
             {

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Lab02.Models.Illustration>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<p href="#" data-toggle="tooltip" title="Hooray!"> When a mind has begun to wander, let it go and look downunder. For then you might find a thing that takes you on and on again.</p>
+@foreach (var item in Model)
+{
+    <h2>@Html.DisplayFor(modelItem => item.Name)</h2>
+    <p class="details">
+        <a id="@Html.DisplayFor(modelItem => item.IllustrationId)" href="@Html.DisplayFor(modelItem => item.ImageUrl)"> <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" width="312" height="192" alt="lady" /></a>
+        <br>
+        @Html.DisplayFor(modelItem => item.Description)
+    </p>
+}
+
+
+@* Delopgave 02*@
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+@section Scripts{
+    <script src="~/js/Illustration.js" as-append-version="true"></script>
+}
